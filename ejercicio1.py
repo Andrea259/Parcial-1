@@ -1,4 +1,4 @@
-# Dfinimos la clase que utilizaremos 
+# Dfinimos la clase que utilizaremos en este caso tienda 
 class Tienda:
     def __init__(self):
         self.inventario = {}
@@ -39,7 +39,7 @@ class Tienda:
         for venta in self.ventas:
             print(f"Producto: {venta['producto']} - Cantidad: {venta['cantidad']} - Total: {venta['total']}")
 
-# Acontinuacion muestro un ejemplo de como se aplicaria 
+# A continuacion muestro un ejemplo de como se aplicaria 
 
 # Ejemplo de uso
 tienda = Tienda()
